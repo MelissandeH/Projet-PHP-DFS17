@@ -2,11 +2,28 @@
 
 ## Introduction
 
-script.sh est un script permettant d'installer Vagrant et VirtualBox sur un poste Linux.
-Vous pouvez également personnaliser votre installation en choisissant : le nom des deux dossiers synchronisés, la boxe et l'adresse IP utilisée.
+Projet-PHP-DFS17 est un projet permettant de créer et supprimer des cartes que l'utilisateur peut personnaliser.
 
-## Comment utiliser script.sh
+## Comment accéder à Projet-PHP-DFS17
 
-Lancez le script en ouvrant votre terminal et en tapant : " bash script.sh "
+Dans un premier temps munissez vous d'un serveur virtuel (LAMP/VirtualBox). 
+Ce projet a été conçu initialement sur Linux.
 
-Suivez les étapes de l'installation, différentes questions et choix vous seront proposés. Vous devrez répondre par le numéro correspondant à votre réponse.
+## Installer la BDD
+
+Importez le fichier web_app_mh.sql au sein de votre base de donnée MYSQL.
+ID à utiliser pour votre BDD :
+
+ID : root
+PSWD : 1234
+Nom de la base de donnée : web_app_mh
+
+## Accès utilisateurs exemples :
+
+Admin :
+ID : Test123456
+PSWD : 123456
+
+User :
+ID : JeSuisNouveau
+PSWD :123456789
